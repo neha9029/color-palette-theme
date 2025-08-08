@@ -1,0 +1,18 @@
+header {
+  padding: 1rem;
+  text-align: center;
+  width: 100vw;
+  min-width: 100%;
+  height: 100%;
+  background-color: #aaa939;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #555400;
+}
+
+p {
+  font-size: 2rem;
+  color: #6a5acd;
+}
