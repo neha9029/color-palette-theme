@@ -6,7 +6,8 @@ export default function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route index element={<Homepage />} />
+        <Route path="/" element={<Homepage />} />
+        {/* <Route index element={<Homepage />} /> */}
         <Route path="/theme" element={<Theme />} />
         <Route path="/mood" element={<Mood />} />
       </Routes>

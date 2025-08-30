@@ -13,7 +13,7 @@ export const themes = [
     ],
     tags: ["soothing", "pastel", "oceanic"],
     mood: "calm, clear",
-    image: "/img/calm-sea.jpg",
+    image: `${import.meta.env.BASE_URL}/img/calm-sea.jpg`,
   },
   {
     id: "neon-night",
@@ -29,7 +29,7 @@ export const themes = [
     ],
     tags: ["bold", "party", "cyberpunk"],
     mood: "energetic, nightlife",
-    image: "/img/neon-night.jpg",
+    image: `${import.meta.env.BASE_URL}/img/neon-night.jpg`,
   },
   {
     id: "forest-air",
@@ -45,7 +45,7 @@ export const themes = [
     ],
     tags: ["earthy", "muted", "natural"],
     mood: "fresh, grounding",
-    image: "/img/forest-air.jpg",
+    image: `${import.meta.env.BASE_URL}/img/forest-air.jpg`,
   },
   {
     id: "sunset-peach",
@@ -61,7 +61,7 @@ export const themes = [
     ],
     tags: ["warm", "romantic", "dreamy"],
     mood: "relaxed, uplifting",
-    image: "/img/sunset-peach.jpg",
+    image: `${import.meta.env.BASE_URL}/img/sunset-peach.jpg`,
   },
   {
     id: "desert-clay",
@@ -77,7 +77,7 @@ export const themes = [
     ],
     tags: ["rustic", "warm", "grounded"],
     mood: "cozy, nostalgic",
-    image: "/img/desert-clay.jpg",
+    image: `${import.meta.env.BASE_URL}/img/desert-clay.jpg`,
   },
   {
     id: "aurora-glow",
@@ -93,7 +93,7 @@ export const themes = [
     ],
     tags: ["mystical", "vibrant", "polar"],
     mood: "dreamy, magical",
-    image: "/img/aurora-glow.jpg",
+    image: `${import.meta.env.BASE_URL}/img/aurora-glow.jpg`,
   },
   // --- 🌸 Spring ---
   {
@@ -110,7 +110,7 @@ export const themes = [
     ],
     tags: ["spring", "floral", "fresh"],
     mood: "gentle, blooming",
-    image: "/img/spring-blooming-garden.jpg",
+    image: `${import.meta.env.BASE_URL}/img/spring-blooming-garden.jpg`,
   },
   {
     id: "spring-morning-dew",
@@ -142,7 +142,7 @@ export const themes = [
     ],
     tags: ["airy", "light", "springtime"],
     mood: "calm, delicate",
-    image: "/img/spring-pastel.jpg",
+    image: `${import.meta.env.BASE_URL}/img/spring-pastel.jpg`,
   },
   {
     id: "spring-fresh-growth",
@@ -158,7 +158,7 @@ export const themes = [
     ],
     tags: ["green", "sunlit", "vibrant"],
     mood: "hopeful, bright",
-    image: "/img/spring-fresh-growth.jpg",
+    image: `${import.meta.env.BASE_URL}/img/spring-fresh-growth.jpg`,
   },
 
   // --- 🌼 Wildflowers ---
@@ -208,7 +208,7 @@ export const themes = [
     ],
     tags: ["alpine", "crisp", "mountain"],
     mood: "serene, cool",
-    image: "/img/wildflower-alpine.jpg",
+    image: `${import.meta.env.BASE_URL}/img/wildflower-alpine.jpg`,
   },
   {
     id: "wildflower-prairie",
@@ -242,7 +242,7 @@ export const themes = [
     ],
     tags: ["sweet", "fun", "playful"],
     mood: "youthful, bright",
-    image: "/img/pastel-candy-shop.jpg",
+    image: `${import.meta.env.BASE_URL}/img/pastel-candy-shop.jpg`,
   },
   {
     id: "pastel-faded-chalk",
@@ -356,7 +356,7 @@ export const themes = [
     ],
     tags: ["warm", "clay", "earthy"],
     mood: "cozy, rustic",
-    image: "/img/charcoal-warm.jpg",
+    image: `${import.meta.env.BASE_URL}/img/charcoal-warm.jpg`,
   },
 
   // --- 🌲 Wood ---
@@ -406,7 +406,7 @@ export const themes = [
     ],
     tags: ["beach", "sunbleached", "neutral"],
     mood: "airy, coastal",
-    image: "/img/wood-drift.jpg",
+    image: `${import.meta.env.BASE_URL}/img/wood-drift.jpg`,
   },
   {
     id: "wood-rustic",
@@ -422,6 +422,6 @@ export const themes = [
     ],
     tags: ["cabin", "rustic", "warm"],
     mood: "cozy, nostalgic",
-    image: "/img/wood-rustic.jpg",
+    image: `${import.meta.env.BASE_URL}/img/wood-rustic.jpg`,
   },
 ];
