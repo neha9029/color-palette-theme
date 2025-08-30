@@ -1,0 +1,38 @@
+@use "../style" as *;
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba($color-primary-light, 0.2);
+  border-radius: 20px;
+  // width: 100%;
+  margin: 2rem;
+  color: $color-primary-light;
+  padding: 0.5rem 7rem;
+  box-sizing: border-box;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  box-sizing: border-box;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: $color-primary-light;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.nav a:hover {
+  color: $color-primary-dark;
+}
+.nav a:global(.active) {
+  color: $color-primary-dark;
+}

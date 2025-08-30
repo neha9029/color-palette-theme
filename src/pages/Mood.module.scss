@@ -1,0 +1,98 @@
+@use "../style" as *;
+
+.mainContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f7fb;
+  gap: 20px;
+  font-size: 25px;
+  font-weight: 800;
+  color: $color-primary;
+  box-sizing: border-box;
+}
+
+.moodDropdown {
+  border-radius: 10px;
+  border: 4px solid $color-primary;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 20px;
+
+  // option {
+  //   padding: 0.5rem 0.75rem;
+
+  //   &:hover {
+  //     background: #e0f2f1;
+  //   }
+  //   &:checked {
+  //     background: #31848f;
+  //     color: white;
+  //   }
+  // }
+}
+
+.moodoption {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+
+  border: 2px solid black;
+  background: #eeeeee;
+  padding: 10px;
+  transition: 0.4s;
+}
+
+.palette {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+// .moodDropdown option {
+//   padding: 0.5rem 0.75rem;
+// }
+// .moodDropdown option:hover {
+//   background: black;
+// }
+// .moodDropdown option:checked {
+//   background: #cfe4e7;
+//   color: #06353b;
+// }
+.colorBox {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hexText {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 5px;
+  opacity: 0;
+  z-index: 2;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.colorBox:hover .hexText {
+  opacity: 1;
+}
+
+.selected .hexText {
+  opacity: 1;
+}
