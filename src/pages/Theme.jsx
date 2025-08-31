@@ -1,4 +1,5 @@
 import PageNav from "../components/PageNav";
+import Search from "../components/Search";
 import styles from "./Theme.module.scss";
 import { themes } from "../../data/themes";
 
@@ -8,6 +9,7 @@ function Theme() {
   return (
     <>
       <PageNav />
+      <Search />
       <section className="section__theme__cards">
         <div className="u-center-text u-margin-bottom-big">
           <h2 className="heading-secondary">Most popular themes</h2>

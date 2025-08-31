@@ -1,0 +1,16 @@
+@use "../style" as *;
+
+.search__container {
+  margin: 4rem 2rem;
+
+  &__input {
+    display: block;
+    width: 100%;
+    color: $color-primary-dark;
+    border: 3px solid $color-primary-light;
+    border-radius: 3rem;
+    font-family: inherit;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+}

@@ -126,7 +126,7 @@ export const themes = [
     ],
     tags: ["pastel", "dewy", "soft"],
     mood: "airy, refreshing",
-    image: "/img/spring-morning-dew.jpg",
+    image: `${import.meta.env.BASE_URL}/img/spring-morning-dew.jpg`,
   },
   {
     id: "spring-pastel",
@@ -224,7 +224,7 @@ export const themes = [
     ],
     tags: ["prairie", "earthy", "open"],
     mood: "warm, rustic",
-    image: "/img/wildflower-prairie.jpg",
+    image: `${import.meta.env.BASE_URL}/img/wildflower-prairie.jpg`,
   },
 
   // --- 🎨 Pastels ---
