@@ -35,9 +35,9 @@
   font-size: 2rem;
   border-radius: 1rem;
   min-height: 35rem; /* ensures it’s visible even if empty */
-  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.25);
   position: relative;
-  perspective: 100rem;
+  perspective: 180rem;
 
   &__front,
   &__back {
@@ -154,6 +154,9 @@
     }
   }
 
+  &:hover {
+    transform: translateY(-1.5rem) scaleX(1.1);
+  }
   &:hover &__front {
     cursor: pointer;
     transform: rotateY(-180deg);

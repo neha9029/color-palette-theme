@@ -1,0 +1,35 @@
+@use "../style" as *;
+
+.section__form {
+  margin: 3rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin: 0;
+
+  &__input {
+    font-family: inherit;
+    font-size: 2rem;
+    padding: 1.5rem 2rem;
+    width: 50%;
+    border-radius: 3rem;
+    border: 3px solid $color-primary-light;
+    color: inherit;
+
+    &__btn__submit {
+      font-size: 2rem;
+      background-color: rgba($color-primary-light, 0.5);
+      border: 3px solid $color-primary-dark;
+      border-radius: 3rem;
+      padding: 1.5rem;
+      color: $color-primary;
+      font-weight: 700;
+      width: 25%;
+    }
+  }
+}
